@@ -1,0 +1,11 @@
+{
+    "name": "Hidden ruleset",
+    "description": "Hide these Errors and Warnings",
+    "rules": [
+        {            
+            "id": "AS0054",
+            "action": "None",
+            "justification": "Justification"
+        }
+    ]
+}

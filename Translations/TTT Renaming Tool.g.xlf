@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="TTT Renaming Tool">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 134890541 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rename Ledger</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - Field 798588572 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Old No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - Field Old No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - Field 1403669541 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - Field New No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - Field 3135334477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - Field Table ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - Field 2199256728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date of Creation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - Field Date of Creation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - Field 3955509047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time of Creation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - Field Time of Creation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - Field 98207365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created by</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - Field Created by - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - Field 3386160310 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Old No. without relation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - Field Old No. without relation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - Field 3860325052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - Field Entry Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - Field 2310166515 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Join to</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - Field Join to - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - Field 149522872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - Field Entry Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - Field 3781340410 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date of Processing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - Field Date of Processing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - Field 1695010521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time of Processing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - Field Time of Processing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - Field 1210996323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processed by</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - Field Processed by - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - Field 1805468730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - Field Error Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - Field 1820719388 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - Field Table Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - NamedType 3088896918" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 already exists!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - NamedType Label001Err</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - NamedType 1784242755" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 does not exist!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - NamedType Label002Err</note>
+        </trans-unit>
+        <trans-unit id="Table 134890541 - NamedType 1139397588" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A %1 can not be joined with itself!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - NamedType Label003Err</note>
+        </trans-unit>
+        <trans-unit id="Report 134890541 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rename Ledger Batch</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Rename Ledger TTT-MSREN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3163822471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rename Ledger Journal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rename Ledger Jnl. TTT-MSREN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3163822471 - Control 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line number in journal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rename Ledger Jnl. TTT-MSREN - Control Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3163822471 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type of action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rename Ledger Jnl. TTT-MSREN - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3163822471 - Control 3135334477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table ID reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rename Ledger Jnl. TTT-MSREN - Control Table ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3163822471 - Control 1820719388 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rename Ledger Jnl. TTT-MSREN - Control Table Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3163822471 - Control 798588572 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Old/current number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rename Ledger Jnl. TTT-MSREN - Control Old No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3163822471 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rename Ledger Jnl. TTT-MSREN - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3163822471 - Control 1403669541 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New number after execution</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rename Ledger Jnl. TTT-MSREN - Control New No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3163822471 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status for the journal line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rename Ledger Jnl. TTT-MSREN - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3163822471 - Control 1805468730 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error description if execution failed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rename Ledger Jnl. TTT-MSREN - Control Error Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3163822471 - Action 1929393835 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Functions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rename Ledger Jnl. TTT-MSREN - Action Functions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3163822471 - Action 200712427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Execute Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rename Ledger Jnl. TTT-MSREN - Action Execute Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3163822471 - Action 200712427 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Execute action on current line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rename Ledger Jnl. TTT-MSREN - Action Execute Line - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3163822471 - Action 686116538 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Execute All</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rename Ledger Jnl. TTT-MSREN - Action Execute All - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3163822471 - Action 686116538 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Execute action on all lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rename Ledger Jnl. TTT-MSREN - Action Execute All - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Enum 609285383 - EnumValue 3194217980 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Ledger Action Type TTT-MSREN - EnumValue Rename - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 609285383 - EnumValue 3279553150 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Join</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Ledger Action Type TTT-MSREN - EnumValue Join - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 149576273 - EnumValue 2521603205 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ready</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Ledger Status TTT-MSREN - EnumValue Ready - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 149576273 - EnumValue 3826689261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Ledger Status TTT-MSREN - EnumValue Failed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 149576273 - EnumValue 1178809860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Done</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Ledger Status TTT-MSREN - EnumValue Done - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
