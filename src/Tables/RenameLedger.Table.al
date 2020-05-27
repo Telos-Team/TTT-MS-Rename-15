@@ -173,9 +173,9 @@ table 80265 "Rename Ledger TTT-MSREN"
     end;
 
     var
-        Label001Err: Label '%1 %2 already exists!';
-        Label002Err: Label '%1 %2 does not exist!';
-        Label003Err: Label 'A %1 can not be joined with itself!';
+        Label001Err: Label '%1 %2 already exists!', Comment = '%1 is table caption. %2 is new number';
+        Label002Err: Label '%1 %2 does not exist!', Comment = '%1 is table caption. %2 is new number';
+        Label003Err: Label 'A %1 can not be joined with itself!', Comment = '%1 is table caption';
 
     local procedure NextLineNo(): integer
     var

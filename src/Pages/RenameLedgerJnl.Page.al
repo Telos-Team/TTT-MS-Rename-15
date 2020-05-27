@@ -95,12 +95,10 @@ page 80265 "Rename Ledger Jnl. TTT-MSREN"
                     var
                         renameLedgEntry: record "Rename Ledger TTT-MSREN";
                     begin
-                        with renameLedgEntry do begin
-                            get(rec."Line No.");
-                            SetRecFilter();
-                            report.Run(report::"Rename Ledger TTT-MSREN", false, true, renameLedgEntry);
-                            CurrPage.Update(false);
-                        end;
+                        renameLedgEntry.get(rec."Line No.");
+                        renameLedgEntry.SetRecFilter();
+                        report.Run(report::"Rename Ledger TTT-MSREN", false, true, renameLedgEntry);
+                        CurrPage.Update(false);
                     end;
                 }
                 action("Execute All")
@@ -114,11 +112,9 @@ page 80265 "Rename Ledger Jnl. TTT-MSREN"
                     var
                         renameLedgEntry: record "Rename Ledger TTT-MSREN";
                     begin
-                        with renameLedgEntry do begin
-                            copy(rec);
-                            report.Run(report::"Rename Ledger TTT-MSREN", false, true, renameLedgEntry);
-                            CurrPage.Update(false);
-                        end;
+                        renameLedgEntry.copy(rec);
+                        report.Run(report::"Rename Ledger TTT-MSREN", false, true, renameLedgEntry);
+                        CurrPage.Update(false);
                     end;
                 }
             }

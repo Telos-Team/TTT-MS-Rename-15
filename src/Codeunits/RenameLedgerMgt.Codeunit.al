@@ -17,13 +17,11 @@ codeunit 80265 "Rename Ledger Mgt. TTT-MSREN"
         recRef: RecordRef;
         fldRef: FieldRef;
     begin
-        with pRenameLedg do begin
-            recRef.open("Table ID");
-            fldRef := recRef.FIELD(1);
-            fldRef.SetRange("Old No.");
-            recRef.FindFirst();
-            recref.Rename("New No.");
-        end;
+        recRef.open(pRenameLedg."Table ID");
+        fldRef := recRef.FIELD(1);
+        fldRef.SetRange(pRenameLedg."Old No.");
+        recRef.FindFirst();
+        recref.Rename(pRenameLedg."New No.");
     end;
 
     local procedure HandlJoin(var pRenameLedg: record "Rename Ledger TTT-MSREN")
@@ -32,32 +30,30 @@ codeunit 80265 "Rename Ledger Mgt. TTT-MSREN"
         recRef2: RecordRef;
         fldRef: FieldRef;
     begin
-        with pRenameLedg do begin
-            recRef.open("Table ID");
-            fldRef := recRef.FIELD(1);
-            fldRef.SetRange("New No.");
-            recRef.FindFirst();
-            recRef2 := recref;
-            recRef.Delete(false);
+        recRef.open(pRenameLedg."Table ID");
+        fldRef := recRef.FIELD(1);
+        fldRef.SetRange(pRenameLedg."New No.");
+        recRef.FindFirst();
+        recRef2 := recref;
+        recRef.Delete(false);
 
-            clear(recRef);
-            clear(fldRef);
-            recRef.open("Table ID");
-            fldRef := recRef.FIELD(1);
-            fldRef.SetRange("old No.");
-            recRef.FindFirst();
-            recref.Rename("New No.");
+        clear(recRef);
+        clear(fldRef);
+        recRef.open(pRenameLedg."Table ID");
+        fldRef := recRef.FIELD(1);
+        fldRef.SetRange(pRenameLedg."old No.");
+        recRef.FindFirst();
+        recref.Rename(pRenameLedg."New No.");
 
-            clear(recRef);
-            clear(fldRef);
-            recRef.open("Table ID");
-            fldRef := recRef.FIELD(1);
-            fldRef.SetRange("new No.");
-            recRef.FindFirst();
+        clear(recRef);
+        clear(fldRef);
+        recRef.open(pRenameLedg."Table ID");
+        fldRef := recRef.FIELD(1);
+        fldRef.SetRange(pRenameLedg."new No.");
+        recRef.FindFirst();
 
-            COPYRecRef2OtherRecRef(recRef2, recRef);
-            recRef.Modify(false);
-        end;
+        COPYRecRef2OtherRecRef(recRef2, recRef);
+        recRef.Modify(false);
     end;
 
     procedure COPYRecRef2OtherRecRef(var FromRecRef: RecordRef; var ToRecRef: RecordRef)

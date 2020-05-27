@@ -95,17 +95,17 @@
         </trans-unit>
         <trans-unit id="Table 134890541 - NamedType 3088896918" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 %2 already exists!</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 is table caption. %2 is new number</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - NamedType Label001Err</note>
         </trans-unit>
         <trans-unit id="Table 134890541 - NamedType 1784242755" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 %2 does not exist!</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 is table caption. %2 is new number</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - NamedType Label002Err</note>
         </trans-unit>
         <trans-unit id="Table 134890541 - NamedType 1139397588" size-unit="char" translate="yes" xml:space="preserve">
           <source>A %1 can not be joined with itself!</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 is table caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Rename Ledger TTT-MSREN - NamedType Label003Err</note>
         </trans-unit>
         <trans-unit id="Report 134890541 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
