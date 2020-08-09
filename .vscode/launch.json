@@ -5,11 +5,8 @@
             "type": "al",
             "request": "launch",
             "name": "Your own server",
-//            "server": "http://bcsandbox",
-//            "serverInstance": "BC",
-"server": "http://mhm",
-"serverInstance": "bc",
-
+            "server": "http://bcsandbox",
+            "serverInstance": "BC",
             "authentication": "Windows",
             "startupObjectId": 80265,
             "startupObjectType": "Page",

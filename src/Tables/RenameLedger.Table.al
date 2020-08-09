@@ -1,6 +1,6 @@
 table 80265 "Rename Ledger TTT-MSREN"
 {
-    DataClassification = SystemMetadata;
+    DataClassification = CustomerContent;
     Caption = 'Rename Ledger';
 
     fields
@@ -8,12 +8,12 @@ table 80265 "Rename Ledger TTT-MSREN"
         field(1; "Line No."; Integer)
         {
             Caption = 'Line No.';
-            DataClassification = SystemMetadata;
+            DataClassification = CustomerContent;
         }
         field(2; "Old No."; code[20])
         {
             Caption = 'Old No.';
-            DataClassification = SystemMetadata;
+            DataClassification = CustomerContent;
 
             trigger OnValidate()
             var
@@ -46,7 +46,7 @@ table 80265 "Rename Ledger TTT-MSREN"
         field(3; "New No."; code[20])
         {
             Caption = 'New No.';
-            DataClassification = SystemMetadata;
+            DataClassification = CustomerContent;
             trigger OnValidate()
             begin
                 CheckNewNo("New No.");
@@ -67,7 +67,7 @@ table 80265 "Rename Ledger TTT-MSREN"
                     recRef.Open("Table ID");
                     if PageLookupOK(recRef, NewRecRef) then begin
                         fldref := NewRecRef.field(1);
-                        validate("new No.", fldref.Value);
+                        validate("New No.", fldref.Value);
                     end;
                 end;
             end;
@@ -76,75 +76,75 @@ table 80265 "Rename Ledger TTT-MSREN"
         {
             TableRelation = AllObjWithCaption."Object ID" where("Object Type" = const(Table), "Object ID" = filter(15 | 18 | 23 | 27 | 156 | 5050));
             Caption = 'Table ID';
-            DataClassification = SystemMetadata;
+            DataClassification = CustomerContent;
             BlankZero = true;
         }
         field(5; "Description"; Text[50])
         {
             Caption = 'Description';
-            DataClassification = SystemMetadata;
+            DataClassification = CustomerContent;
         }
         field(6; "Date of Creation"; Date)
         {
             Caption = 'Date of Creation';
-            DataClassification = SystemMetadata;
+            DataClassification = CustomerContent;
         }
         field(7; "Time of Creation"; Time)
         {
             Caption = 'Time of Creation';
-            DataClassification = SystemMetadata;
+            DataClassification = CustomerContent;
         }
         field(8; "Created by"; code[50])
         {
             TableRelation = User;
             Caption = 'Created by';
-            DataClassification = SystemMetadata;
+            DataClassification = CustomerContent;
         }
 
         field(9; "Old No. without relation"; Time)
         {
             Caption = 'Old No. without relation';
-            DataClassification = SystemMetadata;
+            DataClassification = CustomerContent;
         }
 
         field(10; "Entry Status"; Enum "Ledger Status TTT-MSREN")
         {
             Caption = 'Status';
-            DataClassification = SystemMetadata;
+            DataClassification = CustomerContent;
         }
 
         field(11; "Join to"; code[20])
         {
             Caption = 'Join to';
-            DataClassification = SystemMetadata;
+            DataClassification = CustomerContent;
         }
 
         field(12; "Entry Type"; enum "Ledger Action Type TTT-MSREN")
         {
             Caption = 'Type';
-            DataClassification = SystemMetadata;
+            DataClassification = CustomerContent;
         }
         field(13; "Date of Processing"; Date)
         {
             Caption = 'Date of Processing';
-            DataClassification = SystemMetadata;
+            DataClassification = CustomerContent;
         }
         field(14; "Time of Processing"; Time)
         {
             Caption = 'Time of Processing';
-            DataClassification = SystemMetadata;
+            DataClassification = CustomerContent;
         }
 
         field(15; "Processed by"; text[50])
         {
             TableRelation = User;
             Caption = 'Processed by';
-            DataClassification = SystemMetadata;
+            DataClassification = CustomerContent;
         }
         field(16; "Error Description"; text[250])
         {
             Caption = 'Error Description';
-            DataClassification = SystemMetadata;
+            DataClassification = CustomerContent;
         }
         field(24; "Table Description"; text[30])
         {
@@ -234,7 +234,7 @@ table 80265 "Rename Ledger TTT-MSREN"
             "entry type"::join:
                 begin
                     recRef.Open("Table ID");
-                    if "Old No." = "New No." then
+                    if "Old No." = "NewNo" then
                         error(Label003Err, recRef.Caption);
                     fldRef := recRef.field(1);
                     fldref.SetRange(NewNo);
